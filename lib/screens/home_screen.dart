@@ -205,7 +205,7 @@ class _HomeScreen extends State<HomeScreen> {
   void formMessage() {
     String _sujet = "";
     String _contenu = "";
-    User _auteur = _userController.users.;
+    User _auteur = _userController.users.first;
 
     showDialog(
       context: context,
